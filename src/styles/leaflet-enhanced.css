@@ -1,0 +1,198 @@
+
+/* Styles améliorés pour la carte circuit Tunisie */
+
+/* Marqueurs numérotés */
+.custom-numbered-marker {
+  border: none !important;
+  background: transparent !important;
+  cursor: pointer;
+}
+
+.numbered-marker {
+  font-family: 'Inter', sans-serif;
+  user-select: none;
+  transform-origin: center;
+}
+
+.numbered-marker:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(52, 126, 255, 0.4) !important;
+}
+
+.numbered-marker.selected {
+  animation: marker-bounce 1.5s ease-in-out;
+  box-shadow: 0 4px 16px rgba(52, 126, 255, 0.6) !important;
+}
+
+/* Animation de rebond pour les marqueurs */
+@keyframes marker-bounce {
+  0%, 20%, 50%, 80%, 100% { 
+    transform: translateY(0) scale(1); 
+  }
+  40% { 
+    transform: translateY(-10px) scale(1.1); 
+  }
+  60% { 
+    transform: translateY(-5px) scale(1.05); 
+  }
+}
+
+.marker-bounce {
+  animation: marker-bounce 1.5s ease-in-out;
+}
+
+/* Popups améliorées */
+.city-info-popup .leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  padding: 0;
+  background: white;
+  min-width: 160px;
+}
+
+.city-info-popup .leaflet-popup-tip {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.popup-enhanced {
+  padding: 12px 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.popup-number {
+  font-size: 11px;
+  font-weight: 600;
+  color: #347EFF;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.popup-name {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.popup-region {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.3;
+}
+
+/* Légende améliorée */
+.enhanced-legend {
+  pointer-events: auto;
+}
+
+.legend-enhanced-content {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  font-family: 'Inter', sans-serif;
+  min-width: 200px;
+}
+
+.legend-enhanced-title {
+  font-weight: 700;
+  font-size: 14px;
+  color: #1a1a1a;
+  margin-bottom: 2px;
+}
+
+.legend-enhanced-subtitle {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.legend-enhanced-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.legend-enhanced-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
+  color: #444;
+}
+
+.legend-enhanced-line {
+  width: 24px;
+  height: 4px;
+  background: #347EFF;
+  border-radius: 2px;
+}
+
+.legend-enhanced-marker,
+.legend-enhanced-selected {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #347EFF;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.legend-enhanced-selected {
+  background: #1653BE;
+  box-shadow: 0 2px 8px rgba(52, 126, 255, 0.4);
+}
+
+/* Transitions fluides pour la navigation */
+.leaflet-zoom-animated {
+  transition: transform 0.25s cubic-bezier(0, 0, 0.25, 1) !important;
+}
+
+.leaflet-pan-anim {
+  transition: transform 0.25s cubic-bezier(0, 0, 0.25, 1) !important;
+}
+
+/* Polyline animée */
+.leaflet-interactive {
+  transition: stroke-width 0.2s ease;
+}
+
+.leaflet-interactive:hover {
+  stroke-width: 6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .legend-enhanced-content {
+    padding: 12px;
+    min-width: 160px;
+  }
+  
+  .legend-enhanced-title {
+    font-size: 13px;
+  }
+  
+  .legend-enhanced-subtitle,
+  .legend-enhanced-item {
+    font-size: 11px;
+  }
+  
+  .popup-enhanced {
+    padding: 10px 12px;
+  }
+  
+  .popup-name {
+    font-size: 14px;
+  }
+  
+  .popup-region {
+    font-size: 12px;
+  }
+}

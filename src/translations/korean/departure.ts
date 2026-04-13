@@ -1,0 +1,157 @@
+export const departureTranslations = {
+  // Departure Planning
+  "Departure Planning": "출발 계획",
+  "Flight Information": "항공편 정보",
+  "Airport Details": "공항 정보",
+  "Check-in Process": "체크인 절차",
+  "Baggage Allowance": "수하물 허용량",
+  "Security Guidelines": "보안 가이드라인",
+  "Terminal Information": "터미널 정보",
+  
+  // Main Sections
+  "Essential Pre-Departure Information": "필수 출발 전 정보",
+  "Travel Documents & Entry Requirements": "여행 서류 및 입국 요건",
+  "Passport & Visa": "여권 및 비자",
+  "Currency & Money": "통화 및 금융",
+  "Pre-Departure Checklist": "출발 전 체크리스트",
+  "Essential Items": "필수 항목",
+  "Health & Safety": "건강 및 안전",
+  "Travel Insurance": "여행자 보험",
+  "Cultural Etiquette": "문화 예절",
+  "Dress Code": "복장 규정",
+  "Social Customs": "사회적 관습",
+  "Photography": "사진 촬영",
+  "Alcohol & Dining": "음주 및 식사",
+  "Prayer Times & Ramadan": "기도 시간 및 라마단",
+  
+  // Essential Items List
+  "Valid passport (minimum 6 months validity from return date)": "유효한 여권 (귀국일로부터 최소 6개월 유효기간)",
+  "Tunisia visa (if required for your nationality)": "튀니지 비자 (국적에 따라 필요시)",
+  "Travel insurance covering medical emergencies": "의료 응급상황을 보장하는 여행자 보험",
+  "Flight tickets and itinerary": "항공권 및 여행 일정",
+  "Hotel/accommodation confirmations": "호텔/숙박 확인서",
+  "Credit/debit cards and some cash (Tunisian Dinar)": "신용/체크카드 및 현금 (튀니지 디나르)",
+  "Emergency contact information": "긴급 연락처 정보",
+  "Prescribed medications with doctor's note": "의사 소견서가 있는 처방약",
+  "Power adapters (European Type C/E plugs)": "전원 어댑터 (유럽형 C/E 플러그)",
+  "Sunscreen and hat": "자외선 차단제 및 모자",
+  "Light, modest clothing (covering shoulders and knees for religious sites)": "가볍고 단정한 옷 (종교 유적지 방문 시 어깨와 무릎 덮기)",
+  "Comfortable walking shoes": "편안한 워킹화",
+  "Basic first aid kit": "기본 구급상자",
+  "Photocopy of passport (stored separately)": "여권 사본 (별도 보관)",
+  "Arabic phrasebook or translation app": "아랍어 회화책 또는 번역 앱",
+  
+  // Health & Safety Info
+  "Vaccinations": "예방접종",
+  "No mandatory vaccinations are required for Tunisia, but it's recommended to be up-to-date with routine vaccines (MMR, diphtheria-tetanus-pertussis, etc.). Consider Hepatitis A and Typhoid vaccines. Consult your doctor before travel.": "튀니지 입국에 필수 예방접종은 없지만, 일반 백신(MMR, 디프테리아-파상풍-백일해 등)을 최신 상태로 유지하는 것이 좋습니다. A형 간염 및 장티푸스 백신을 고려하세요. 여행 전 의사와 상담하세요.",
+  "Water Safety": "식수 안전",
+  "While tap water is generally treated, tourists are recommended to drink bottled water. Most restaurants and hotels serve filtered or bottled water. When in doubt, choose sealed bottled water, which is widely available and inexpensive. Ice cubes in tourist areas are usually made from purified water.": "수돗물은 일반적으로 처리되지만, 관광객은 생수를 마시는 것이 좋습니다. 대부분의 레스토랑과 호텔은 정수된 물이나 생수를 제공합니다. 확실하지 않을 때는 밀봉된 생수를 선택하세요. 생수는 널리 구할 수 있고 저렴합니다. 관광 지역의 얼음은 일반적으로 정수된 물로 만들어집니다.",
+  "Food Safety": "식품 안전",
+  "Tunisian cuisine is delicious and generally safe. Most restaurants, especially those in tourist areas, maintain good hygiene standards. Street food can be enjoyable, but choose vendors with high turnover and good cleanliness. Opt for hot, freshly prepared foods, and be mindful of raw vegetables. If you have a sensitive stomach, stick to cooked dishes and peelable fruits.": "튀니지 요리는 맛있고 일반적으로 안전합니다. 대부분의 레스토랑, 특히 관광 지역의 레스토랑은 좋은 위생 기준을 유지합니다. 길거리 음식도 즐길 수 있지만, 회전율이 높고 청결한 판매자를 선택하세요. 뜨겁고 갓 준비된 음식을 선택하고, 생야채에 주의하세요. 민감한 위장을 가지고 있다면 조리된 요리와 껍질을 벗길 수 있는 과일을 선택하세요.",
+  "Sun Protection": "자외선 차단",
+  "Tunisia's sun can be intense, especially in summer. Wear sunscreen (minimum SPF 30), a hat, and sunglasses. Stay hydrated and seek shade during the hottest part of the day (11am-3pm).": "튀니지의 태양은 특히 여름에 강렬할 수 있습니다. 자외선 차단제(최소 SPF 30), 모자, 선글라스를 착용하세요. 수분을 유지하고 하루 중 가장 더운 시간대(오전 11시~오후 3시)에는 그늘을 찾으세요.",
+  "Medical Facilities": "의료 시설",
+  "Major cities have adequate medical facilities, but quality can vary. Private clinics generally offer better service than public hospitals. Ensure your travel insurance covers medical evacuation if necessary.": "주요 도시에는 적절한 의료 시설이 있지만 품질은 다양할 수 있습니다. 사립 병원은 일반적으로 공공 병원보다 더 나은 서비스를 제공합니다. 필요한 경우 여행자 보험이 의료 후송을 보장하는지 확인하세요.",
+  
+  // Travel Documents
+  "Your passport must be valid for at least 6 months beyond your planned departure date from Tunisia.": "여권은 튀니지 출국 예정일로부터 최소 6개월 이상 유효해야 합니다.",
+  "Many nationalities, including those from the US, Canada, EU, UK, and Australia, can visit Tunisia without a visa for stays up to 90 days.": "미국, 캐나다, EU, 영국, 호주를 포함한 많은 국적의 사람들은 최대 90일까지 비자 없이 튀니지를 방문할 수 있습니다.",
+  "Always verify the latest visa requirements for your specific nationality on your government's travel website or the": "정부 여행 웹사이트 또는",
+  "Tunisian Ministry of Foreign Affairs website": "튀니지 외교부 웹사이트",
+  "You may need to complete a white immigration card upon arrival. Keep your portion until departure.": "도착 시 흰색 출입국 카드를 작성해야 할 수 있습니다. 출국 시까지 본인 부분을 보관하세요.",
+  
+  // Currency & Money
+  "The local currency is the Tunisian Dinar (TND), which is a closed currency (cannot be obtained outside Tunisia).": "현지 통화는 튀니지 디나르(TND)이며, 폐쇄 통화입니다 (튀니지 외부에서는 구할 수 없음).",
+  "Exchange currency at the airport, banks, or official exchange offices. Keep receipts as you'll need them to convert dinars back when leaving.": "공항, 은행 또는 공식 환전소에서 환전하세요. 출국 시 디나르를 다시 환전하려면 영수증이 필요하므로 보관하세요.",
+  "ATMs are widely available in cities and tourist areas. Inform your bank about your travel plans to prevent card blocking.": "ATM은 도시와 관광지에서 널리 사용할 수 있습니다. 카드 차단을 방지하기 위해 은행에 여행 계획을 알리세요.",
+  "It's illegal to import or export Tunisian Dinars. Convert remaining dinars before leaving the country.": "튀니지 디나르를 수입하거나 수출하는 것은 불법입니다. 출국 전에 남은 디나르를 환전하세요.",
+  
+  // Travel Insurance
+  "Comprehensive travel insurance is strongly recommended for all visitors to Tunisia. Ensure your policy covers:": "모든 튀니지 방문객에게 종합 여행자 보험을 적극 권장합니다. 보험이 다음을 보장하는지 확인하세요:",
+  "Medical emergencies and hospitalization": "의료 응급상황 및 입원",
+  "Emergency evacuation": "긴급 후송",
+  "Trip cancellation/interruption": "여행 취소/중단",
+  "Lost luggage and personal belongings": "분실 수하물 및 개인 소지품",
+  "Keep digital and physical copies of your insurance policy details and emergency contact numbers.": "보험 증권 세부사항 및 긴급 연락처의 디지털 및 실물 사본을 보관하세요.",
+  
+  // Cultural Etiquette
+  "Tunisia is a moderate Muslim country. While there's no strict dress code for tourists, modest clothing is appreciated, especially in rural areas and religious sites.": "튀니지는 온건한 이슬람 국가입니다. 관광객에게 엄격한 복장 규정은 없지만, 특히 시골 지역과 종교 유적지에서는 단정한 옷차림이 환영받습니다.",
+  "Cover shoulders, chest, and knees when visiting mosques or religious sites": "모스크나 종교 유적지 방문 시 어깨, 가슴, 무릎을 덮으세요",
+  "Women should bring a scarf to cover their hair when entering mosques": "여성은 모스크 입장 시 머리를 가릴 스카프를 가져가야 합니다",
+  "Beach attire is acceptable at resorts and beaches only": "비치웨어는 리조트와 해변에서만 착용 가능합니다",
+  "Greet people with \"Salam Alaikum\" (peace be upon you)": "\"살람 알라이쿰\" (평화가 함께하기를)으로 인사하세요",
+  "Shake hands when meeting people (same gender)": "사람을 만날 때 악수하세요 (동성)",
+  "Wait for women to extend their hand first when greeting": "인사할 때 여성이 먼저 손을 내밀 때까지 기다리세요",
+  "It's considered impolite to refuse offers of tea or coffee": "차나 커피 제공을 거절하는 것은 무례한 것으로 간주됩니다",
+  "Remove shoes before entering someone's home": "누군가의 집에 들어가기 전에 신발을 벗으세요",
+  "Remove shoes when entering someone's home": "누군가의 집에 들어갈 때 신발을 벗으세요",
+  "Avoid public displays of affection": "공공장소에서 애정 표현을 피하세요",
+  "Use your right hand for eating and greeting (left hand is considered unclean)": "식사와 인사 시 오른손을 사용하세요 (왼손은 불결한 것으로 간주됨)",
+  "Always ask permission before photographing people": "사진을 찍기 전에 항상 허락을 구하세요",
+  "Always ask permission before photographing people, especially women": "특히 여성의 사진을 찍기 전에 항상 허락을 구하세요",
+  "Avoid photographing military installations, airports, or government buildings": "군사 시설, 공항 또는 정부 건물 사진 촬영을 피하세요",
+  "Avoid photographing military installations, police, or government buildings": "군사 시설, 경찰 또는 정부 건물 사진 촬영을 피하세요",
+  "Some sites charge a small fee for photography or have restrictions": "일부 장소는 사진 촬영 시 소액의 비용을 청구하거나 제한이 있습니다",
+  "Be respectful in religious sites - some may prohibit photography inside": "종교 유적지에서 예의를 지키세요 - 일부는 내부 사진 촬영을 금지할 수 있습니다",
+  "Alcohol is available in hotels, restaurants, and bars in tourist areas, but public intoxication is frowned upon": "알코올은 관광지의 호텔, 레스토랑, 바에서 구입할 수 있지만 공공장소에서의 만취는 좋지 않게 여겨집니다",
+  "During Ramadan (dates vary yearly), eating, drinking, or smoking in public during daylight hours is disrespectful": "라마단 기간 중 (날짜는 매년 다름) 낮 시간에 공공장소에서 먹거나 마시거나 담배를 피우는 것은 무례합니다",
+  "Many restaurants and cafes may have limited hours or be closed during Ramadan": "많은 레스토랑과 카페가 라마단 기간 동안 영업 시간이 제한되거나 문을 닫을 수 있습니다",
+  "The Islamic call to prayer (Adhan) occurs five times daily - be respectful during these times": "이슬람 기도 시간 (아잔)은 하루에 다섯 번 있습니다 - 이 시간 동안 예의를 지키세요",
+  
+  // Flight Routes
+  "Flights": "항공편",
+  "The Main 4 Routes to Travel from South Korea to Tunisia": "한국에서 튀니지로 가는 주요 4가지 경로",
+  "Need Help Booking?": "예약 도움이 필요하신가요?",
+  "Seoul, South Korea": "대한민국 서울",
+  "Departure": "출발",
+  "Arrival": "도착",
+  "Airport": "공항",
+  "Incheon International Airport (ICN)": "인천국제공항 (ICN)",
+  "Tunis Carthage": "튀니스 카르타고",
+  "Choose a Stop": "경유지 선택",
+  "From South Korea:": "한국에서:",
+  "To Tunisia:": "튀니지까지:",
+  "14Hrs 30 Mins": "14시간 30분",
+  "2 Hours": "2시간",
+  "Layover": "경유",
+  "Paris, France": "프랑스 파리",
+  "Doha, Qatar": "카타르 도하",
+  "Istanbul, Turkiye": "튀르키예 이스탄불",
+  "Dubai, UAE": "아랍에미리트 두바이",
+  
+  // Tips Before Trip
+  "Learn more about lifestyle in Tunisia": "튀니지의 라이프스타일에 대해 더 알아보기",
+  
+  // Pre-flight Checklist
+  "Pre-flight Checklist": "출발 전 체크리스트",
+  "Confirm flight times": "항공편 시간 확인",
+  "Check weather conditions": "날씨 상황 확인",
+  "Print boarding passes": "탑승권 출력",
+  "Pack according to airline regulations": "항공사 규정에 따른 짐 포장",
+  "Arrange airport transportation": "공항 교통편 준비",
+  "Set travel alerts on phone": "휴대폰에 여행 알림 설정",
+  
+  // Airport Services
+  "Airport Services": "공항 서비스",
+  "Dining Options": "식사 옵션",
+  "Shopping": "쇼핑",
+  "WiFi Access": "와이파이 접속",
+  "Currency Exchange": "환전",
+  "Information Desk": "안내데스크",
+  "Lost and Found": "분실물 보관소",
+  
+  // Flight Routes
+  "Popular Flight Routes": "인기 항공 루트",
+  "Direct Flights": "직항 항공편",
+  "Connecting Flights": "경유 항공편",
+  "Flight Duration": "비행 시간",
+  "Layover Information": "경유지 정보",
+  "Airline Partners": "항공사 파트너",
+  
+  // Travel Tips
+  "Arrival Tips": "도착 팁",
+  "Immigration Process": "출입국 절차",
+  "Customs Declaration": "세관 신고",
+  "Ground Transportation": "지상 교통",
+  "First Day Recommendations": "첫째 날 추천사항"
+};

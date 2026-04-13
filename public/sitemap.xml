@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://tunisiatrip.kr/</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tunisiatrip.kr/?lang=KR"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tunisiatrip.kr/?lang=EN"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tunisiatrip.kr/"/>
+  </url>
+  <url>
+    <loc>https://tunisiatrip.kr/about-tunisia</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tunisiatrip.kr/about-tunisia?lang=KR"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tunisiatrip.kr/about-tunisia?lang=EN"/>
+  </url>
+  <url>
+    <loc>https://tunisiatrip.kr/travel-information</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tunisiatrip.kr/travel-information?lang=KR"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tunisiatrip.kr/travel-information?lang=EN"/>
+  </url>
+  <url>
+    <loc>https://tunisiatrip.kr/blog</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tunisiatrip.kr/blog?lang=KR"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tunisiatrip.kr/blog?lang=EN"/>
+  </url>
+  <url>
+    <loc>https://tunisiatrip.kr/company-information</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tunisiatrip.kr/company-information?lang=KR"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tunisiatrip.kr/company-information?lang=EN"/>
+  </url>
+  <url>
+    <loc>https://tunisiatrip.kr/start-my-trip</loc>
+    <lastmod>2025-12-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://tunisiatrip.kr/start-my-trip?lang=KR"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tunisiatrip.kr/start-my-trip?lang=EN"/>
+  </url>
+</urlset>

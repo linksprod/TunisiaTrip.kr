@@ -1,0 +1,25 @@
+
+export const atlantisTranslations = {
+  "Welcome to Atlantis": "아틀란티스에 오신 것을 환영합니다",
+  "Book Your Trip": "여행 예약하기",
+  "About Us": "회사 소개",
+  "Our Services": "우리의 서비스",
+  "Message from CEO": "CEO 메시지",
+  "Team Members": "팀 멤버",
+  "Our Partners": "우리의 파트너",
+  "Contact & Inquiry": "연락처 및 문의",
+  "Enriching The Quality Of Your Trips Through Our Services And Guidance": "우리의 서비스와 안내를 통해 여행의 질을 향상시키기",
+  "Representative & CEO": "대표 및 CEO",
+  "Representative & CEO,": "대표 및 CEO,",
+  "Atlantis Agency": "아틀란티스 에이전시",
+  "Learn More About Atlantis Services": "아틀란티스 서비스에 대해 더 알아보기",
+  "Experience Authentic Tunisian Hospitality in Handpicked Guesthouses": "엄선된 게스트하우스에서 진정한 튀니지 환대를 경험하세요",
+  "Select Guest Houses in Tunisia's Historic Districts": "튀니지 역사 지구의 엄선된 게스트하우스",
+  "Guest Houses & Riads": "게스트하우스 & 리아드",
+  "Atlantis Voyages Partnerships": "아틀란티스 보야지 파트너십",
+  "Global Network Partnership": "글로벌 네트워크 파트너십",
+  "TunisiaTrip operates under the prestigious Atlantis agency, leveraging a comprehensive global network of strategic partners to deliver exceptional travel experiences.": "튀니지트립은 명망 있는 아틀란티스 에이전시 하에서 운영되며, 포괄적인 글로벌 전략적 파트너 네트워크를 활용하여 뛰어난 여행 경험을 제공합니다.",
+  "Our international partnerships span across key markets including South Korea, Japan, and numerous countries worldwide, enabling us to provide seamless travel services and cultural exchange opportunities.": "우리의 국제적 파트너십은 한국, 일본을 포함한 주요 시장과 전 세계 수많은 국가에 걸쳐 있어, 원활한 여행 서비스와 문화 교류 기회를 제공할 수 있게 합니다.",
+  "Through these strategic collaborations, we ensure that every aspect of your Tunisian journey is expertly coordinated, from accommodation and transportation to unique cultural experiences and local expertise.": "이러한 전략적 협력을 통해 숙박과 교통부터 독특한 문화 경험과 현지 전문 지식까지 튀니지 여행의 모든 측면이 전문적으로 조정되도록 보장합니다.",
+  "Become a Partner": "파트너 되기"
+};

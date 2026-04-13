@@ -1,0 +1,33 @@
+
+export const travelActivitiesTranslations = {
+  "Exciting Activities in Tunisia": "튀니지의 신나는 활동",
+  "Tunisia offers a diverse range of activities for every type of traveler. From exploring ancient Roman ruins and wandering through picturesque blue-and-white villages to riding camels in the Sahara Desert and relaxing on Mediterranean beaches, there's something for everyone.": "튀니지는 모든 유형의 여행자를 위한 다양한 활동을 제공합니다. 고대 로마 유적 탐험과 그림 같은 파란색과 흰색 마을 산책부터 사하라 사막에서 낙타 타기와 지중해 해변에서 휴식까지, 모든 사람을 위한 무언가가 있습니다.",
+  "Browse our selection of top activities and experiences below to help plan your perfect Tunisian adventure.": "완벽한 튀니지 모험을 계획하는 데 도움이 되는 최고의 활동과 경험 선택을 아래에서 살펴보세요.",
+  "Explore by Category": "카테고리별 탐색",
+  "All Activities (6)": "모든 활동 (6)",
+  "Adventure (2)": "모험 (2)",
+  "Cultural (3)": "문화 (3)",
+  "Historical (2)": "역사 (2)",
+  "Nature (1)": "자연 (1)",
+  "All Activities": "모든 활동",
+  "Adventure": "모험",
+  "Cultural": "문화적",
+  "Historical": "역사적",
+  "Nature": "자연",
+  "UNESCO Site": "유네스코 유적지",
+  "Photography": "사진촬영",
+  "Relaxation": "휴식",
+  "Shopping": "쇼핑",
+  "Film Tourism": "영화 관광",
+  "Educational": "교육적",
+  "Crafts": "공예",
+  "Architecture": "건축",
+  
+  // Durations
+  "Half-day to multi-day": "반나절부터 여러 일",
+  "3-4 hours": "3-4시간",
+  "2-3 hours": "2-3시간",
+  "1-2 hours": "1-2시간",
+  "2-4 hours": "2-4시간",
+  "1-3 days": "1-3일",
+};

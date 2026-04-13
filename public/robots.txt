@@ -1,0 +1,14 @@
+
+# robots.txt for Tunisia Trip website
+User-agent: *
+Allow: /
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /admin/*
+
+# Sitemap location
+Sitemap: https://tunisiatrip.kr/sitemap.xml
+
+# Important crawl directives
+Crawl-delay: 1
